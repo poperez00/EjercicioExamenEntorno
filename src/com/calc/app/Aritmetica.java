@@ -4,10 +4,13 @@ import com.calc.model.Decimal;
 import com.calc.model.Entero;
 import com.calc.model.Numero;
 
+
 public class Aritmetica {
 
 	public Aritmetica() {}
-
+/** Este codigo está hecho para realizar operaciones aritmeticas como es la suma, la resta y la media de un
+ * Tenemos las variable n1 y n2
+ * En dicho proyecto tenemos una librería importada de manera externa */
 	
 	public Numero suma(Numero n1, Numero n2) {
 		Numero resultado = null;

@@ -6,7 +6,9 @@ public class Entero extends Numero {
 	private static final int VALOR_MAXIMO = 100001;
 
 	
-	
+	/** En esta clase se puede observar, todos los mensajes de error que pueden ocurrir
+	 * Todos los if que hay, son, por si el usuario introduce datos incorrectos, ya que puede equivocarse
+	 * Tenemos dos metodos privado, como son el valor minimo y el valor maximo y varios publicos*/
 	
 	public Entero(int value, Base base) {
 		super(value, base);
